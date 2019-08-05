@@ -14,20 +14,12 @@ public class Main {
 
     public static void main(String[] args) {
 
-//        SpringApplication.run(Main.class,args);
+        SpringApplication.run(Main.class,args);
 
 
-        List<Integer> l = new ArrayList<>();
-        l.addAll(0, Arrays.asList(3,2,4,1,45));
-        l.forEach(System.out::println);
 
     }
 
-    private static void print() {
-
-        System.out.println("lol");
-
-    }
 
     /*@Bean
     CommandLineRunner initDatabase(UserRepository repository) {

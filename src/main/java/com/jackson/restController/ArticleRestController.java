@@ -2,8 +2,6 @@ package com.jackson.restController;
 
 
 import com.jackson.entity.Article;
-import com.jackson.entity.User;
-import com.jackson.model.Color;
 import com.jackson.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
